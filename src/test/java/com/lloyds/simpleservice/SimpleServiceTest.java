@@ -6,10 +6,10 @@ import org.springframework.util.Assert;
 import java.util.List;
 
 
-public class SimpleControllerTest {
+public class SimpleServiceTest {
 
     @Test
-    public void shouldInstantiateController(){
+    public void shouldInstantiateService(){
         SimpleService service = new SimpleService();
 
         Assert.isTrue(service != null, "Service must not be null");
